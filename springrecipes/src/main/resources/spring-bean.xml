@@ -1,0 +1,163 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
+  <!--  <bean id="sequenceGenerator" class="com.spring.recipes.one.SequenceGenerator" />
+    &lt;!&ndash; 最简单的注入bean方法 &ndash;&gt;
+    <bean id="SequenceGenerator" class="com.spring.recipes.one.SequenceGenerator"  />
+
+    &lt;!&ndash; 构造函数参数初始化 &ndash;&gt;
+    <bean id="initValueSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <property name="suffix">
+            <value>A</value>
+        </property>
+        <property name="prefix">
+            <value>100</value>
+        </property>
+        <property name="initial">
+            <value>100</value>
+        </property>
+    </bean>
+
+    &lt;!&ndash; 构造函数参数初始化 &ndash;&gt;
+    <bean id="initSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <constructor-arg>
+            <value>30</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>B</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>3000</value>
+        </constructor-arg>
+    </bean>
+
+    &lt;!&ndash; p schema 初始化构造函数参数 &ndash;&gt;
+    <bean id="pinitSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator" p:prefix="40" p:suffix="A" p:initial="4000" />
+
+    &lt;!&ndash; 初始化bean中集合参数信息，集合中可再初始化对象 &ndash;&gt;
+    <bean id="initListSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <property name="suffixes">
+            <list>
+                <value>C</value>
+                <bean class="java.net.URL">
+                    <constructor-arg value="http" />
+                    <constructor-arg value="www.baidu.com" />
+                    <constructor-arg value="/" />
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    &lt;!&ndash; 初始化map参数信息 &ndash;&gt;
+    <bean id="initMapSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <property name="suffixMap">
+            <map>
+                <entry>
+                    <key><value>type</value></key>
+                    <value>A</value>
+                </entry>
+                <entry>
+                    <key><value>url</value></key>
+                    <bean class="java.net.URL">
+                        <constructor-arg value="http" />
+                        <constructor-arg value="www.apress.com" />
+                        <constructor-arg value="/" />
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    &lt;!&ndash; 在spring中定义java.util.Properties集合，使用props标记，以多个prop标记作为子项目，每个prop标记必须定义一个key属性并包含对应的值 &ndash;&gt;
+    <bean id="initPropsSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <property name="suffixObjs">
+            <props>
+                <prop key="type">A</prop>
+                <prop key="url">http://www.baidu.com/</prop>
+                <prop key="null">null</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="datePrefixGenerator" class="com.spring.recipes.one.service.impl.DatePrefixGeneratorImpl">
+        <property name="pattern" value="yyyyMMdd" />
+    </bean>
+
+    <bean id="baseSequenceGenerator" class="com.spring.recipes.one.SequenceGenerator">
+        <property name="prefixGenerator" ref="datePrefixGenerator" />
+        <property name="initial" value="100000" />
+        <property name="suffix" value="AAA" />
+        <property name="suffixes">
+            <list>
+                <value>A</value>
+                <value>B</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="dataPrefixGenerator" parent="baseSequenceGenerator">
+        <property name="suffixes">
+            <list merge="true">&lt;!&ndash; 子bean的集合可以通过设置merge属性的为true与父bean合并。
+            对于list集合，子元素将附加在父元素之后保持顺序；
+            对于set或map集合，如果值相同，子元素将覆盖父元素，&ndash;&gt;
+                <value>A</value>
+                <value>C</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="initPschemaGenerator" class="com.spring.recipes.one.SequenceGenerator" p:suffix="P" p:initial="20000" p:prefixGenerator-ref="datePrefixGenerator"/>
+
+    <bean id="battery" class="com.spring.recipes.one.domain.Battery">
+        <property name="name" value="AAA" />
+        <property name="price" value="80.3" />
+        <property name="rechargeable" value="true" />
+    </bean>
+
+    <bean id="disc" class="com.spring.recipes.one.domain.Disc">
+        <property name="name" value="BBB" />
+        <property name="price" value="100" />
+        <property name="capacity" value="1000" />
+    </bean>
+
+    <bean id="aaa" class="com.spring.recipes.one.domain.DiscountFactoryBean">
+        <property name="product">
+            <bean class="com.spring.recipes.one.domain.Battery">
+                <constructor-arg value="AAA"/>
+                <constructor-arg value="2.5"/>
+            </bean>
+        </property>
+        <property name="discount" value="0.2"/>
+    </bean>
+
+    <bean id="bbb" class="com.spring.recipes.one.domain.DiscountFactoryBean">
+        <property name="product">
+            <bean class="com.spring.recipes.one.domain.Disc">
+                <constructor-arg value="BBB"/>
+                <constructor-arg value="1.5"/>
+            </bean>
+        </property>
+        <property name="discount" value="0.1"/>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor">
+        <property name="requiredAnnotationType">
+            <value>com.spring.recipes.one.service.Mandatory</value>
+        </property>
+    </bean>
+-->
+    <context:component-scan base-package="com.spring.recipes.one" >
+        <context:include-filter type="regex" expression="com\.spring\.recipes\.one\.domain\.*"/>
+    </context:component-scan>
+  <!--  <bean id="sequenceDao" class="com.spring.recipes.one.service.impl.SequenceDaoImpl" />
+    <bean id="sequenceService" class="com.spring.recipes.one.service.impl.SequenceService" autowire="byType"/>-->
+
+    <bean id="cashier1" class="com.spring.recipes.two.domain.Cashier">
+        <property name="name" value="cashier1" />
+        <property name="path" value="E:/cashier" />
+    </bean>
+</beans>

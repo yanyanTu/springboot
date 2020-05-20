@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
+
+    <!-- scope：
+            默认为singleton, 单例模式，spring为每个IOC容器只创建一个bean实例时
+            设置为prototype，为属性，spring将为每个getBean()方法调用和其他Bean中的引用创建一个新的bean实例
+    -->
+    <bean id="shoppingCart" class="com.spring.recipes.two.domain.ShoppingCart" scope="prototype"/>
+
+    <bean id="aaa" class="com.spring.recipes.one.domain.Battery">
+        <property name="price" value="2.5" />
+        <property name="name" value="aaa" />
+    </bean>
+
+    <bean id="cdrw" class="com.spring.recipes.one.domain.Disc">
+        <property name="name" value="CD-RW"/>
+        <property name="price" value="3.0" />
+    </bean>
+
+    <bean id="dvrw" class="com.spring.recipes.one.domain.Disc">
+        <property name="name" value="DV-RW"/>
+        <property name="price" value="1.5"/>
+    </bean>
+
+ <!--   <bean id="cashier1" class="com.spring.recipes.two.domain.Cashier" init-method="openFile" destroy-method="closeFile">
+        <property name="name" value="cashier1" />
+        <property name="path" value="E:/cashier" />
+    </bean>
+-->
+    <!-- 注册CommonAnnotationBeanPostProcessor实例，调用带有生命周期注解的初始化PostConstruct和析构回调PreDestory方法，
+        则不需要在bean的init-method和destory-method属性 -->
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+    <bean id="cashier1" class="com.spring.recipes.two.domain.Cashier">
+        <property name="name" value="cashier1" />
+        <property name="path" value="E:/cashier" />
+    </bean>
+</beans>
