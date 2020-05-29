@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+
+     http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!-- beans根元素下配置aop schema，则会自动为匹配AspectJ aspect 的bean创建代理 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <bean id="arithmeticCalculator" class="com.spring.recipes.aopaspectj.impl.ArithmeticCalculatorImpl"/>
+    <bean class="com.spring.recipes.aopaspectj.CalculatorValidationAspect"/>
+    <!-- 设置aspect的优先级有两种方式，一种继承Ordered接口，实现getOrder方法，一种是aspect中加入注解@order(number)标明优先级，number值越小，优先级越高 -->
+    <!-- 通过DeclareParents注解将一个接口引入多个实现类中 -->
+    <bean class="com.spring.recipes.aopaspectj.CalculatorIntroduction"/>
+    <bean id="utilCalcultor" class="com.spring.recipes.aopaspectj.impl.UtilCalcultorImpl"/>
+    <bean id="calculatorLoggingAspect" class="com.spring.recipes.aopaspectj.CalculatorLoggingAspect"/>
+
+    <bean id="ComplexCalculator" class="com.spring.recipes.service.impl.ComplexCalculatorImpl"/>
+</beans>
