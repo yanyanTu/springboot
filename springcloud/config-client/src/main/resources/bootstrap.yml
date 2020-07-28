@@ -1,0 +1,28 @@
+spring:
+  application:
+  name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8770  #对应Config Server开放的地址
+      fail-fast: true
+      profile: dev
+      label: master
+#配置rabbitmq的相关信息
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8771
+
+  #指定eureka服务的注册地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#关闭安全校验操作
+management:
+  security:
+    enabled: false

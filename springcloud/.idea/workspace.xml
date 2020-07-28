@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a6a126e-f6e4-4fd7-9af7-aeff219e4985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_ldap_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/yanyantu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/dao/RedisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/demain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/java/com/example/springcloud/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/demo-springcloud/src/test/java/com/example/springcloud/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-master/spring-beans/src/test/java/org/springframework/tuyy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/document/note/one.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/aspect/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/domain/BlogProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/domain/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/domain/RedisObjectSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/service/impl/SecondaryUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/service/impl/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/task/AynchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/springboot/learn/task/SchedulerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/cache/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/static/11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/template/mailTemplate.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/springboot/learn/ApplicationRedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/springboot/learn/controller/HelloControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/springboot/learn/service/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/springcloud/config/client/EurekaConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/test/java/com/springcloud/config/client/configclient/ConfigClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/springcloud/config/server/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/config-client-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/com/springcloud/config/server/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/src/main/java/com/springcloud/eureka/client/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/src/main/java/com/springcloud/eureka/client/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-one/src/test/java/com/springcloud/eureka/client/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/springcloud/eureka/client/DemoSpringcloudEurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/springcloud/eureka/client/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/springcloud/eureka/client/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/springcloud/eureka/client/service/RestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/example/springcloud/eureka/client/demospringcloudeurekaclient/DemoSpringcloudEurekaClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/src/main/java/com/springcloud/eureka/minitor/DemoEurekaMinitorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-minitor-client/src/test/java/com/springcloud/eureka/minitor/demoeurekaminitor/DemoEurekaMinitorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/java/com/springcloud/eureka/ribbon/client/DemoSpringcloudRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/java/com/springcloud/eureka/ribbon/client/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/java/com/springcloud/eureka/ribbon/client/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/java/com/springcloud/eureka/ribbon/client/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/java/com/springcloud/eureka/ribbon/client/service/HiHytrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client-one/src/test/java/com/springcloud/eureka/ribbon/client/demospringcloudribbon/DemoSpringcloudRibbonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/example/springcloud/eureka/ribbon/DemoSpringcloudEurekaRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/example/springcloud/eureka/ribbon/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/example/springcloud/eureka/ribbon/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/example/springcloud/eureka/ribbon/service/RestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/test/java/com/example/springcloud/eureka/ribbon/demospringcloudeurekaribbon/DemoSpringcloudEurekaRibbonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eureka/server/demoeurekaserver/DemoEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eureka/server/demoeurekaserver/DemoEurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/springcloud/eureka/zuul/client/DemoEurekaZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/springcloud/eureka/zuul/client/filter/ZuulRouteFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/springcloud/eureka/zuul/client/service/EurekaFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul-client/src/test/java/com/springcloud/eureka/zuul/client/DemoEurekaZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/src/main/java/com/springcloud/admin/SpringbootAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-admin/src/test/java/com/springcloud/admin/springbootadmin/SpringbootAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/SpringbootSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/config/OauthAuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/domain/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/service/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/com/springboot/security/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/test/java/com/springboot/security/springbootsecurity/SpringbootSecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/src/main/java/com/springcloud/zipkin/client/user/ZipkinClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/src/main/java/com/springcloud/zipkin/client/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-user/src/test/java/com/springcloud/zipkin/client/user/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/src/main/java/com/springcloud/zipkin/gateway/ZipkinGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/src/main/java/com/springcloud/zipkin/gateway/filter/LoggerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-gateway/src/test/java/com/springcloud/zipkin/gateway/zipkingateway/ZipkinGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/java/com/springcloud/zipkin/server/ZipkinServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/java/com/springcloud/zipkin/server/config/ZipkinConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/test/java/com/springcloud/zipkin/server/demozipkinserver/DemoZipkinServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudeureka/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/spring-recipes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/src/main/java/com/spring/recipes/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/src/main/java/com/spring/recipes/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/META-INF/springrecipes.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/ResponseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/advice/GlobalErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/aspect/WebLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/config/XssConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/controller/request/XssHttpServletRequestWrapper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/controller/request/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/filter/XssFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/SequenceGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/TestMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/dao/SequenceDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/domain/Battery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/domain/Disc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/domain/DiscountFactoryBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/domain/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/domain/Sequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/Generator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/IPrefixGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/Mandatory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/impl/DatePrefixGeneratorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/impl/SequenceDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/one/service/impl/SequenceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/task/AbstractJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/task/SmsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/task/TaskScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/task/domain/JobModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/BannerLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/CashierConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/ProductCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/domain/Cashier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/domain/ProductRanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/two/domain/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/com/spring/recipes/util/JsoupUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/spring-bean-two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springrecipes/target/classes/spring-bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springrecipes/src/main/java/com/spring/recipes/controller/MessageListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springrecipes/src/main/java/com/spring/recipes/controller/MessageListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springrecipes/src/main/resources/spring-bean-four.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springrecipes/src/main/resources/spring-bean-four.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demaspringcloudeureka" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e4GqfuESFQADogU96jrJVpMHgW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springboot.security" />
+      <recent name="com.springcloud.admin" />
+      <recent name="com.springcloud.zipkin.gateway" />
+      <recent name="com.springcloud.zipkin.client.user" />
+      <recent name="com.springcloud.zipkin.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\yanyantu\springcloud\zipkinServer" />
+      <recent name="D:\yanyantu\springcloud\config-client\src\main\resources" />
+      <recent name="D:\yanyantu\springcloud\config-server\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springcloud.eureka.ribbon.client.controller" />
+      <recent name="com.example.springcloud.eureka.ribbon.service" />
+      <recent name="com.example.springcloud.eureka.ribbon.config" />
+      <recent name="com.springcloud.eureka.client.controller" />
+      <recent name="com.example.springcloud.eureka.ribbon.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\yanyantu\springcloud\springboot-admin\src\main\java\com\springcloud\admin" />
+      <recent name="D:\yanyantu\springcloud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootSecurityApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.config.client.EurekaConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.config.server.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.admin.SpringbootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.security.SpringbootSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.zipkin.gateway.ZipkinGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-client-one" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.client.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud.eureka.client.DemoSpringcloudEurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-minitor-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-minitor-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.minitor.DemoEurekaMinitorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-ribbon-client-one" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-ribbon-client-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.ribbon.client.DemoSpringcloudRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-ribbon-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-ribbon-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud.eureka.ribbon.DemoSpringcloudEurekaRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dema.springcloud.eureka.server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.server.demoeurekaserver.DemoEurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-zuul-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="eureka-zuul-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloud.eureka.ribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.zuul.client.DemoEurekaZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zipkinClientUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-client-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.zipkin.client.user.ZipkinClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zipkinServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.zipkin.server.ZipkinServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.eureka-client" />
+      <item itemvalue="Spring Boot.eureka-client-one" />
+      <item itemvalue="Spring Boot.eureka-minitor-client" />
+      <item itemvalue="Spring Boot.eureka-ribbon-client" />
+      <item itemvalue="Spring Boot.eureka-ribbon-client-one" />
+      <item itemvalue="Spring Boot.eureka-server" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.zipkinServer" />
+      <item itemvalue="Spring Boot.zipkinClientUser" />
+      <item itemvalue="Spring Boot.ZipkinGatewayApplication" />
+      <item itemvalue="Spring Boot.SpringbootSecurityApplication" />
+      <item itemvalue="Spring Boot.SpringbootAdminApplication" />
+      <item itemvalue="Spring Boot.eureka-zuul-client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.eureka-zuul-client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.2730085" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a6a126e-f6e4-4fd7-9af7-aeff219e4985" name="Default Changelist" comment="" />
+      <created>1593573643852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593573643852</updated>
+      <workItem from="1593573647160" duration="39795000" />
+      <workItem from="1593999757017" duration="13711000" />
+      <workItem from="1594027237919" duration="6407000" />
+      <workItem from="1594087550930" duration="4048000" />
+      <workItem from="1594091611243" duration="886000" />
+      <workItem from="1594092507048" duration="3832000" />
+      <workItem from="1594102595016" duration="12410000" />
+      <workItem from="1594260075696" duration="26415000" />
+      <workItem from="1594604844188" duration="2212000" />
+      <workItem from="1594791273893" duration="2736000" />
+      <workItem from="1594883677221" duration="19432000" />
+      <workItem from="1595226792580" duration="38230000" />
+      <workItem from="1595836521800" duration="11333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
